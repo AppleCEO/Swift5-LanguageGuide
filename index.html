@@ -672,17 +672,7 @@
 <p class="first admonition-title">Note</p>
 <p>If you compile in unchecked mode (<code class="docutils literal notranslate"><span class="pre">-Ounchecked</span></code>), preconditions aren’t checked. The compiler assumes that preconditions are always true, and it optimizes your code accordingly. However, the <code class="docutils literal notranslate"><span class="pre">fatalError(_:file:line:)</span></code> function always halts execution, regardless of optimization settings.</p>
 <p class="last">You can use the <code class="docutils literal notranslate"><span class="pre">fatalError(_:file:line:)</span></code> function during prototyping and early development to create stubs for functionality that hasn’t been implemented yet, by writing <code class="docutils literal notranslate"><span class="pre">fatalError(&quot;Unimplemented&quot;)</span></code> as the stub implementation. Because fatal errors are never optimized out, unlike assertions or preconditions, you can be sure that execution always halts if it encounters a stub implementation.</p>
-</div>
-</div>
-</div>
-</div>
-
-
     </article>
-    <div class="next_previous">
-        <p class="previous"><a href="../GuidedTour/GuidedTour.html">A Swift Tour</a></p>
-        <p class="next"><a href="BasicOperators.html">Basic Operators</a></p>
-    </div>
 </main>
 
 <div id="jump_to_overlay"></div>
