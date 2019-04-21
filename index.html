@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Apple Inc." />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <title>The Basics &mdash; 스위프트 프로그래밍 언어 (Swift 5)</title>
+    <title>The Basics &mdash; 스위프트 5 프로그래밍 언어 메뉴얼, 가이드 (Swift 5)</title>
   </head>
   <body>
 
@@ -17,14 +17,14 @@
 <nav role="navigation">
     <div id="menu-toggle" class="menu-toggle open"></div>
 
-    <h2>스위프트 프로그래밍 언어<div>Swift 5</div></h2>
+    <h1>스위프트 5 프로그래밍 언어 메뉴얼, 가이드<div>Swift 5</div></h1>
 
     <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="TheBasics.html">Language Guide</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Language Guide</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">The Basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BasicOperators.html">Basic Operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="StringsAndCharacters.html">Strings and Characters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="CollectionTypes.html">Collection Types</a></li>
+<!-- <li class="toctree-l2"><a class="reference internal" href="CollectionTypes.html">Collection Types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ControlFlow.html">Control Flow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Functions.html">Functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Closures.html">Closures</a></li>
@@ -46,7 +46,7 @@
 <li class="toctree-l2"><a class="reference internal" href="AutomaticReferenceCounting.html">Automatic Reference Counting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="MemorySafety.html">Memory Safety</a></li>
 <li class="toctree-l2"><a class="reference internal" href="AccessControl.html">Access Control</a></li>
-<li class="toctree-l2"><a class="reference internal" href="AdvancedOperators.html">Advanced Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="AdvancedOperators.html">Advanced Operators</a></li> -->
 </ul>
 </li>
 </nav>
@@ -126,7 +126,7 @@
 <p>Swift 는 <em>type-safe</em> 언어입니다. 이것은 코드가 명확하게 동작하는데 도움을 줍니다. 만약 당신의 코드가 <code class="docutils literal notranslate"><span class="pre">String</span></code> 타입을 요구한다면, 실수로 <code class="docutils literal notranslate"><span class="pre">Int</span></code> 형 타입이 전달되지 못합니다. 마찬가지로 타입 안정성은 옵셔널 <code class="docutils literal notranslate"><span class="pre">String</span></code> 값이 <code class="docutils literal notranslate"><span class="pre">String</span></code> 타입이 요구될 때 사용되지 못하도록 막습니다. 타입 안정성은 개발 과정에서 가능한 한 빨리 오류를 찾고 수정하는데 도움을 줄 수 있습니다.</p>
 <div class="section" id="ID310">
 <h2>Constants and Variables<a class="headerlink" href="#ID310" title="Permalink to this headline">¶</a></h2>
-<p>상수와 변수는 이름 (예 : <code class="docutils literal notranslate"><span class="pre">maximumNumberOfLoginAttempts</span></code> 또는 <code class="docutils literal notranslate"><span class="pre">welcomeMessage</span></code>) 을 특정 타입의 값 (예 : 숫자 <code class="docutils literal notranslate"><span class="pre">10</span></code> 또는 문자열 <code class="docutils literal notranslate"><span class="pre">&quot;Hello&quot;</span></code>) 과 연관시킵니다. <em>constant</em> 상수의 값은 한번 설정되면 변경할 수 없지만 <em>variable</em> 변수는 나중에 다른 값으로 설정할 수 있습니다.</p>
+<p>상수와 변수는 이름 (예 : <code class="docutils literal notranslate"><span class="pre">maximumNumberOfLoginAttempts</span></code> 또는 <code class="docutils literal notranslate"><span class="pre">welcomeMessage</span></code>) 을 특정 타입의 값 (예 : 숫자 <code class="docutils literal notranslate"><span class="pre">10</span></code> 또는 문자열 <code class="docutils literal notranslate"><span class="pre">&quot;Hello&quot;</span></code>) 과 연관시킵니다. <em>constant</em> 상수의 값은 한번 설정되면 변경할 수 없지만 <em>variable</em> 변수는 나중에 다른 값으로 설정할 수 있습니다.x</p>
 <div class="section" id="ID311">
 <h3>Declaring Constants and Variables<a class="headerlink" href="#ID311" title="Permalink to this headline">¶</a></h3>
 <p>Constants and variables must be declared before they’re used. You declare constants with the <code class="docutils literal notranslate"><span class="pre">let</span></code> keyword and variables with the <code class="docutils literal notranslate"><span class="pre">var</span></code> keyword. Here’s an example of how constants and variables can be used to track the number of login attempts a user has made:</p>
